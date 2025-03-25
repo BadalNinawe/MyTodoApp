@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: aqua;
+    font-family: "Winky Sans", sans-serif;
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid aqua;
+    outline: none;
+    font-size: 19px;
+}
+
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4,29,29);
+    color: white;
+    /* border-radius: 2px; */
+    border: none;
+    outline: none;
+    font-size:19px;
+    
+}
+.text ul{
+    position: relative;
+    background-color: aqua;
+    color: white;
+    font-size:19px;
+    text-align: left;
+    padding: 7px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor:pointer;
+    text-align: right;
+}
